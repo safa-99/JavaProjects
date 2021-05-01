@@ -7,7 +7,7 @@ public class Card {
 	String description;
 	double rate;
 	
-	public Card() {
+	public Card() {  
 		
 	}
 	
