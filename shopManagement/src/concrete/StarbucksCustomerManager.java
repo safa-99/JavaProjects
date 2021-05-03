@@ -16,7 +16,7 @@ public class StarbucksCustomerManager extends BaseCustomerManager {
 
 	
 	@Override
-	public void Save(Customer customer) {
+	public void save(Customer customer) {
          
 			if(validationService.validate(customer)) {
 				

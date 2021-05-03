@@ -4,5 +4,5 @@ import entities.Customer;
 
 public interface ICustomerService {
 		
-		public void Save(Customer customer);
+		public void save(Customer customer);
 }

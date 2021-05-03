@@ -6,7 +6,7 @@ import entities.Customer;
 public class NeroCustomerManager extends BaseCustomerManager {
 
 	@Override
-	public void Save(Customer customer) {
+	public void save(Customer customer) {
 		
 
 	}
