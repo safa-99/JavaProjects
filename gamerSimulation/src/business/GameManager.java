@@ -18,20 +18,20 @@ public class GameManager implements IGameService{
 	@Override
 	public void save(Game game) {
 		
-		System.out.println(game.getGameName() + "adlý oyun sisteme eklendi");
+		System.out.println(game.getGameName() + "adli oyun sisteme eklendi");
 		
 	}
 
 	@Override
 	public void delete(Game game) {
 		
-		System.out.println(game.getGameName() + "adlý oyun sistemden silindi");
+		System.out.println(game.getGameName() + "adli oyun sistemden silindi");
 	}
 
 	@Override
 	public void update(Game game) {
 		
-		System.out.println(game.getGameName() + "adlý oyun güncellendi");
+		System.out.println(game.getGameName() + "adli oyun güncellendi");
 	}
 	
 	public void sale(Game game,Gamer gamer) {

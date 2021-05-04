@@ -11,8 +11,8 @@ public class SaleManager implements ISaleService{
 	public void sale(Game game,Gamer gamer) {
 		
 		
-		System.out.println(gamer.getFirstName() + " " + game.getPriceAfterDiscount() + " tutarýndaki "
-				+ game.getGameName() + " oyunu satýn aldý.");
+		System.out.println(gamer.getFirstName() + " " + game.getPriceAfterDiscount() + " tutarindaki "
+				+ game.getGameName() + " oyunu satin aldi.");
 	}
 
 }

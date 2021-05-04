@@ -33,7 +33,7 @@ public class GamerManager implements IGamerService{
 	@Override
 	public void delete(Gamer gamer) {
 
-		System.out.println(gamer.getFirstName() + " adlý oyuncu sistemden silindi");
+		System.out.println(gamer.getFirstName() + " adli oyuncu sistemden silindi");
 		
 	}
 
