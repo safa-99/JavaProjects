@@ -2,10 +2,10 @@ package abstracts;
 
 
 import entities.Game;
-import entities.Gamer;
+import entities.Player;
 
 public interface ISaleService {
 		
-		public  void sale(Game game,Gamer gamer);
+		public  void sale(Game game,Player player);
 			
 }

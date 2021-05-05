@@ -1,12 +1,12 @@
 package abstracts;
 
-import entities.Gamer;
+import entities.Player;
 
-public interface IGamerService {
+public interface IPlayerService {
 	
-		void save(Gamer gamer);
+		void save(Player player);
 		
-		void delete(Gamer gamer);
+		void delete(Player player);
 		
-		void update(Gamer gamer);
+		void update(Player player);
 }

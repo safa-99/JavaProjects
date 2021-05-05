@@ -1,9 +1,9 @@
 package abstracts;
 
-import entities.Gamer;
+import entities.Player;
 
 public interface IValidationService {
 		
-		public boolean validate(Gamer gamer);
+		public boolean validate(Player player);
 			
 }

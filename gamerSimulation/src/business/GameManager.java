@@ -4,7 +4,7 @@ import abstracts.IGameService;
 import abstracts.ISaleService;
 import entities.Campaign;
 import entities.Game;
-import entities.Gamer;
+import entities.Player;
 
 public class GameManager implements IGameService{
     
@@ -34,9 +34,9 @@ public class GameManager implements IGameService{
 		System.out.println(game.getGameName() + "adli oyun güncellendi");
 	}
 	
-	public void sale(Game game,Gamer gamer) {
+	public void sale(Game game,Player player) {
 		
-		saleService.sale(game,gamer);
+		saleService.sale(game,player);
 		
 	}
 	

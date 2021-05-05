@@ -1,26 +1,26 @@
 package business;
 
-import abstracts.IGamerService;
+import abstracts.IPlayerService;
 import abstracts.IValidationService;
-import entities.Gamer;
+import entities.Player;
 
-public class GamerManager implements IGamerService{
+public class PlayerManager implements IPlayerService{
 	
 	private IValidationService validationService;
 
-	public GamerManager(IValidationService validationService) {
+	public PlayerManager(IValidationService validationService) {
 		
 		this.validationService = validationService;
 		
 	}
 
 	@Override
-	public void save(Gamer gamer) {
+	public void save(Player player) {
 		
-		if(validationService.validate(gamer)) {
+		if(validationService.validate(player)) {
 			
 			
-			System.out.println(gamer.getFirstName() + " sisteme kaydedildi");
+			System.out.println(player.getFirstName() + " sisteme kaydedildi");
 		}
 		
 		else {
@@ -31,16 +31,16 @@ public class GamerManager implements IGamerService{
 	}
 
 	@Override
-	public void delete(Gamer gamer) {
+	public void delete(Player player) {
 
-		System.out.println(gamer.getFirstName() + " adli oyuncu sistemden silindi");
+		System.out.println(player.getFirstName() + " adli oyuncu sistemden silindi");
 		
 	}
 
 	@Override
-	public void update(Gamer gamer) {
+	public void update(Player player) {
 
-		System.out.println(gamer.getFirstName() + " güncellendi");
+		System.out.println(player.getFirstName() + " güncellendi");
 	}
 
 			

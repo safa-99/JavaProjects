@@ -1,6 +1,6 @@
 package entities;
 
-public class Gamer   {
+public class Player   {
 		
 		private int id;
 		private String firstName;
@@ -9,12 +9,12 @@ public class Gamer   {
 		private String nationalIdentityNumber;
 		
 		
-		public Gamer() {
+		public Player() {
 			
 			
 		}
 
-		public Gamer(int id, String firstName, String lastName, int yearOfBirth , String nationalIdentityNumber) {
+		public Player(int id, String firstName, String lastName, int yearOfBirth , String nationalIdentityNumber) {
 			
 			this.id = id;
 			this.firstName = firstName;
